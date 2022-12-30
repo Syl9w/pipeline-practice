@@ -15,7 +15,7 @@ jobs:
     needs: [test]
     runs-on: ubuntu-latest
     steps: 
-    - uses: actions/checkut@v1
+    - uses: actions/checkout@v1
     - name: Create an artifact
       uses: actions/upload-artifact@v1.0.0
       with:
